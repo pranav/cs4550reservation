@@ -1,7 +1,7 @@
 /** Pranav Gandhi CS4550 Reservation System */
 
 body {
-  background:#efefef;
+  background: -webkit-linear-gradient(top, #ddd 0%, #efefef 15%) no-repeat #efefef;
   font-family:"Helvetica", "Arial", sans-serif;
   font-size:14px;
   line-height:28px;
@@ -28,8 +28,10 @@ body {
 
 .menu {
   background:red;
+  background: -webkit-linear-gradient(top, #D00 0%, #A00 100%);
   border-radius:5px;
   border:1px solid #BB0000;
+  box-shadow: 0 0 10px #888;
 }
 
 .menu a {
@@ -37,17 +39,37 @@ body {
   color:white;
   text-decoration:none;
   border-radius:5px;
+  font-family:"Helvetica", "Lucida Grande", sans-serif;
 }
 
 .menu a:hover {
-  background:#BB0000;
-  text-decoration:underline;
+  background:#fff;
+  color:red;
 }
 
-.content {
-  margin-top:10px;
-  background:white;
-  border:1px #ccc solid;
+.conference-room {
+  background:-webkit-linear-gradient(top, #fff 0%, #eee 50%) #eee;
+  padding:10px;
+  border:1px solid #aaa;
   border-radius:5px;
-  padding:15px;
+  margin:25px 0;
+  box-shadow:0 0 20px #888;
+
+}
+
+.conference-room p {
+  margin:0 0 10px 0;
+}
+
+.conference-room img {
+  float:right;
+}
+
+.conference-room h1 {
+  margin:0 15px 0 15px;
+  font-weight:normal;
+}
+
+.clear {
+  clear:both;
 }
