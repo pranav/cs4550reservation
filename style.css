@@ -12,9 +12,6 @@ body {
   width:800px;
 }
 
-.header {
- 
-}
 
 .header h1 {
   color:#EE0000;
@@ -23,9 +20,16 @@ body {
   font-size:42px;
 }
 
+.header h1 img {
+  max-width:30px;
+  float:left;
+  margin-right:10px;
+}
+
 .menu {
   background:red;
   border-radius:5px;
+  border:1px solid #BB0000;
 }
 
 .menu a {
