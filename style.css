@@ -1,0 +1,49 @@
+/** Pranav Gandhi CS4550 Reservation System */
+
+body {
+  background:#efefef;
+  font-family:"Helvetica", "Arial", sans-serif;
+  font-size:14px;
+  line-height:28px;
+}
+
+.container {
+  margin:0 auto;
+  width:800px;
+}
+
+.header {
+ 
+}
+
+.header h1 {
+  color:#EE0000;
+  font-family:"Times New Roman" serif;
+  font-weight:normal;
+  font-size:42px;
+}
+
+.menu {
+  background:red;
+  border-radius:5px;
+}
+
+.menu a {
+  padding:6px 15px;
+  color:white;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+.menu a:hover {
+  background:#BB0000;
+  text-decoration:underline;
+}
+
+.content {
+  margin-top:10px;
+  background:white;
+  border:1px #ccc solid;
+  border-radius:5px;
+  padding:15px;
+}
