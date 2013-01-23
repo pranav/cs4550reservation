@@ -7,6 +7,11 @@ body {
   line-height:28px;
 }
 
+img.round {
+  border-radius:5px;
+  margin-bottom:25px;
+}
+
 .container {
   margin:0 auto;
   width:800px;
@@ -48,12 +53,13 @@ body {
 }
 
 .conference-room {
-  background:-webkit-linear-gradient(top, #fff 0%, #eee 50%) #eee;
+  /*background:-webkit-linear-gradient(top, #fff 0%, #eee 50%) #eee;*/
+  background:white;
   padding:10px;
   border:1px solid #aaa;
   border-radius:5px;
   margin:25px 0;
-  box-shadow:0 0 20px #888;
+  box-shadow:0 0 10px #888;
 
 }
 
@@ -70,6 +76,20 @@ body {
   font-weight:normal;
 }
 
+.conference-room h1 a.small {
+  font-size:18px;
+  text-decoration:none;
+}
+
+.conference-room li {
+  margin:0;
+  line-height:18px;
+}
+
 .clear {
   clear:both;
+}
+
+.reserve-form {
+  padding:15px;
 }
