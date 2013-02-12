@@ -1,0 +1,33 @@
+/* Mad stylez */
+
+body {
+  background:#eee;
+}
+
+h1.header {
+  font-family: "Times New Roman", serif;
+  font-weight:normal;
+  color:#c00;
+  margin:50px auto 25px auto;
+  text-align:center;
+}
+
+.conference-room {
+  width:700px;
+  margin:0 auto 50px auto;
+  background:white;
+  padding:15px;
+  min-height:200px;
+  border-radius:5px;
+  box-shadow:0 2px 2px #888;
+}
+
+.conference-room img {
+  float:right;
+  border-radius:0 5px 0 0;
+  margin:-15px;
+}
+
+.clear {
+  clear:both;
+}

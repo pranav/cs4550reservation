@@ -1,0 +1,22 @@
+{
+  "rooms":[
+    {
+      "name":"afterHOURS",
+      "image":"http://placehold.it/265x150",
+      "location":"Curry Student Center",
+      "capacity":"270"
+    },
+    {
+      "name":"Alumni Center",
+      "image":"http://placehold.it/265x150",
+      "location":"716 Columbus Place",
+      "capacity":"120"
+    },
+    {
+      "name":"Blackman Theater",
+      "image":"http://placehold.it/265x150",
+      "location":"Ell Hall",
+      "capacity":"6076"
+    }
+  ]
+}
