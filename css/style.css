@@ -24,10 +24,17 @@ h1.header {
 
 .conference-room img {
   float:right;
-  border-radius:0 5px 0 0;
+  border-radius:0 5px 5px 0;
   margin:-15px;
 }
 
 .clear {
   clear:both;
 }
+
+.footer,#footer {
+  text-align:center;
+  margin:0 auto;
+}
+
+
