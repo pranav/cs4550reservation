@@ -53,6 +53,7 @@ $.getJSON("conference-rooms.php", function(data){
       },
       function(d){
         load_schedule($(that).parent());
+        $(that).remove();
       }
     );
   });
