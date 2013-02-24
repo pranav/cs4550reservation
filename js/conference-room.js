@@ -5,7 +5,7 @@ function add_conference_room(room){
 
 function add_form_conference_rooms(){
   $('.conference-room').each(function(k,v){
-    $(this).append('<h3>Reserve <small><a class="schedule" href="#">See schedule</a></small></h3><form class="form-inline conference-form" action=process.php method=POST><input class="date span2" type="date" name="date" placeholder="Date"> <input class="btn btn-primary" type="submit" value="Submit"></form>');
+    $(this).append('<h3>Reserve <small><a class="schedule" href="#">See schedule</a></small></h3><form class="form-inline conference-form" action=process.php method=POST><input class="date span2" type="date" name="date" placeholder="Date"> <input class="btn btn-primary" type="submit" value="Submit"></form><div class="schedule"></div>');
   });
 }
 
@@ -18,7 +18,7 @@ function load_schedule(box){
       schedule_html = schedule_html + "<tr><td>"+s[i]+"</td></tr>";
     }
     schedule_html = schedule_html + "</tbody></table>";
-    $(box).append(schedule_html);
+    $(box).find('.schedule').html(schedule_html);
   });
 }
 
