@@ -12,5 +12,10 @@ function query($q){
   return $res;
 }
 
+function get_conference_room_id($name){
+  $result = query("SELECT * from conference_rooms where name = '$name'");
+  $id = mysql_fetch_assoc($result);
+  return $id['id'];
+}
 
 ?>
