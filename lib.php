@@ -2,7 +2,7 @@
 
 # Connect to the mysql database
 function connect(){
-  $con = mysql_connect("localhost", "root", "dickcheese");
+  $con = mysql_connect("localhost", "hyfi", "supersecretpassword");
   mysql_select_db("cs4550");
   return $con;
 }
